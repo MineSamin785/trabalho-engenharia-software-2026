@@ -1,7 +1,7 @@
 # trabalho-engenharia-software-2026
 Trabalho de clínica veterinária do Técnico em Informática, segundo semestre de 2026.
 
-##Diagrama UML
+## Diagrama UML
 
 ```mermaid
 flowchart TD
@@ -22,12 +22,12 @@ flowchart TD
 
     Vinho-. "estende".->Comida
 
+```
 
+## Diagramas UML
 
-````
+### Diagrama  de classe
 
-##Diagramas UML
-####Diagrama  de classe
 ```mermaid
 classDiagram
     class Veterinario {
