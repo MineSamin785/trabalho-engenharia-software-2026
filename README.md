@@ -25,3 +25,31 @@ flowchart TD
 
 
 ````
+
+##Diagramas UML
+####Diagrama  de classe
+```mermaid
+classDiagram
+    class Veterinario {
+        -CPF:String
+        +darCPF() String
+        +AtenderAnimal:Animal:Void
+
+    }
+    Veterinario--> Animal
+
+    Animal-->cliente
+
+    class Animal {
+        --Dono:cliente
+    }
+
+    class cliente {
+        -Animais:Lista De Animal
+
+        
+    }
+
+   
+    
+```
